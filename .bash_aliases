@@ -8,6 +8,7 @@ alias s='sudo'
 # List only dirs
 alias lsd="ls -alF | grep /$"
 alias sr='sudo rm -r'
+alias local='open http://localhost:3000/'
 
 # Rails commands
 
@@ -89,6 +90,7 @@ alias hli='heroku list'                         # list your apps
 
 alias hi='heroku info'                         # show app info, like web url and git repo
 alias ho='heroku open'                         # open the app in a web browser
+alias hr='heroku run'
 
 
 # add a collaborator
