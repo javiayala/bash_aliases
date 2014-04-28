@@ -9,6 +9,18 @@ alias s='sudo'
 alias lsd="ls -alF | grep /$"
 alias sr='sudo rm -r'
 
+#Launch FTB
+alias mine='/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Commands/java -jar ~/Documents/FTB_Launcher.jar'
+
+#Root to AMAZON SINIMANES
+alias sinimanes='ssh -i ~/.ssh/gmaffia-sinimanes.pem ubuntu@ec2-54-232-216-62.sa-east-1.compute.amazonaws.com'
+
+#Executing local binaries on node apps
+alias bin='PATH=$(npm bin):$PATH'
+
+#IOS SIMULATOR
+alias ios='open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app'
+
 # Rails commands
 
 # Gems
